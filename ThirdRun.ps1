@@ -5,7 +5,6 @@ function Extend ($TimesRun)
 }
 
 Write-Host "My job name is: $ENV:JOB_NAME"
-$Third = $false
 try
 {
 	$TimesRun = [System.Environment]::GetEnvironmentVariable('TimesRun','Machine')
