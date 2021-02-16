@@ -23,5 +23,6 @@ if([int]$TimesRun % 3 -eq 0)
 else
 {
     Extend($TimesRun)
-    Write-Error "Not the third run!"
+    Write-Host "Not the third run!"
+    exit 1
 }
